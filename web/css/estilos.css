@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8/10/2022, 02:21:05 PM
+    Author     : Alberto Hernández 00000165318
+    Asignación 05 - Creación de un Sitio Web Estático con HTML y CSS
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width:1350px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#main{
+    background: blue;
+}
+
+#header{
+    height: 250px;
+    background: url('../img/ITSON.PNG') no-repeat 570px 100px;
+}
+
+#logo{
+    height: 155px;
+    width: 155px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#logoText{
+    float: left;
+    margin: 80px 0 0 400px;
+    font-family: 'Arial Black', Courier, monospace;
+    font-size: 30px;
+    color: #D3E609;
+}
+
+#widgetBar{
+    height: 50px;
+    width: 1350px;
+    float: right;
+    background: #16685D;
+}
+
+.headerWidget{
+    height: 194px;
+    margin: 20px 2px;
+    font-size: small;
+    float: right;
+    line-height: 25px;
+}
+
+#footer{
+    font-family: 'Arial Black';
+    font-size: 15px;
+    color: #D3E609;
+    height:60px;
+    clear: left;
+    background: #16685D;
+}
+
+#indexLeftColumn{
+    height: 400px;
+    width: 150px;
+    float: left;
+    background: #0D069D;
+}
+
+#indexRightColumn{
+    font-family: 'Arial Narrow';
+    font-size: 25px;
+    height: 400px;
+    width: 1200px;
+    float: left;
+    background: url('../img/desierto.jpg') no-repeat 1px 0px;
+}
+
+#indexRightColumn1{
+    font-family: 'Arial Narrow';
+    font-size: 14px;
+    height: 400px;
+    width: 1200px;
+    float: left;
+    background: url('../img/desierto.jpg') no-repeat 1px 0px;
+}
+
+
+#button:hover{
+    text-decoration: none;
+    font-family:'Arial Narrow';
+    font-size:15px;
+    background-color: #D5E234;
+}
+
+/*color del link*/
+a:link{
+    font-family: 'Arial Black';
+    font-size:15px;
+    text-decoration: none;
+    color:#D5E234;
+}
+/*se activa cuando ya se le dió click*/
+a:visited{
+    text-decoration: none;
+    color:#E23493;
+}
+/*cuando se pasa el mouse por encima del hipervinculo*/
+a:hover{
+    text-decoration: none;
+    font-family:'Brush Script MT';
+    font-size:20px;
+    color:black;
+}
+/*se activa cuando se le da click sin soltarlo*/
+a:active{
+    text-decoration: none;
+    color:red;
+}
